@@ -14,7 +14,7 @@ function App() {
   // const minValue = 5;
 
   // return <input type={inputType} min={minValue} />;
-  return <input type="number" min={5} /> // this line is the same as the three above
+  return <input style={{ border: '3px solid red' }} type="number" min={5} /> // this line is the same as the three above
 }
 
 // 5) show the component on the screen
